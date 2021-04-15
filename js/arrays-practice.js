@@ -31,7 +31,10 @@ movies[3] = "Rocky";
 movies[4] = "DC Cab";
 movies[5] = "Problem Child";
 movies[6] = "Friday";
-
+for (let i in movies) {
+   let result = i + ". " + movies[i];
+    console.log(result);
+}
 //STEP 6
 
 //STEP 7
