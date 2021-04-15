@@ -8,9 +8,11 @@ movies[1] = favMovies[1];
 movies[2] = favMovies[2];
 movies[3] = favMovies[3];
 movies[4] = favMovies[4];
-console.log(movies);
+console.log(movies[0]);
 //STEP 3
-
+movies.splice(2, 0, 'Spiderman');
+console.log(movies.length);
+console.log(movies);
 //STEP 4
 
 //STEP 5
