@@ -79,6 +79,26 @@ console.log(favMovies[1]);
 //     console.log(result);
 // }
 //STEP 9
+// let fmovies = [];
+// let leastFavMovies = []
+// fmovies[0] = "Resident Evil";
+// fmovies[1] = "Ali";
+// fmovies[2] = "Sister Act";
+// fmovies[3] = "Rocky";
+// fmovies[4] = "DC Cab";
+// fmovies[5] = "Problem Child";
+// fmovies[6] = "Friday";
+// leastFavMovies[0] = "Jack and Jill";
+// leastFavMovies[1] = "The Adventures of Pluto Nash";
+// leastFavMovies[2] = "Showtime";
+// const movies = fmovies.concat(leastFavMovies);
+// movies.sort();
+// movies.reverse();
+// for (let i in movies) {
+//    let result = "Movies I like: " + '\n' + '\n' + fmovies[i] + '\n' + "Movies I regret watching: " + '\n' + '\n' + leastFavMovies[i];
+//     console.log(result);
+// }
+//STEP 10
 let fmovies = [];
 let leastFavMovies = []
 fmovies[0] = "Resident Evil";
@@ -98,7 +118,6 @@ for (let i in movies) {
    let result = "Movies I like: " + '\n' + '\n' + fmovies[i] + '\n' + "Movies I regret watching: " + '\n' + '\n' + leastFavMovies[i];
     console.log(result);
 }
-//STEP 10
 
 //STEP 11
 
