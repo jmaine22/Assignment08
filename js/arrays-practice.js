@@ -20,7 +20,7 @@ console.log(favMovies[1]);
 // movies[2] = "House Party";
 // movies[3] = "krush Groove";
 // movies[4] = "The Godfather";
-// movies.shift();
+// delete movies[0];
 // console.log(movies);
 //STEP 5
 // let movies = [];
