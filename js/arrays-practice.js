@@ -36,20 +36,31 @@ console.log(favMovies[1]);
 //     console.log(result);
 // }
 //STEP 6
-let movies = [];
-movies[0] = "Resident Evil";
-movies[1] = "Ali";
-movies[2] = "Sister Act";
-movies[3] = "Rocky";
-movies[4] = "DC Cab";
-movies[5] = "Problem Child";
-movies[6] = "Friday";
-for (let i of movies) {
-   let result = i;
-    console.log(result);
-}
+// let movies = [];
+// movies[0] = "Resident Evil";
+// movies[1] = "Ali";
+// movies[2] = "Sister Act";
+// movies[3] = "Rocky";
+// movies[4] = "DC Cab";
+// movies[5] = "Problem Child";
+// movies[6] = "Friday";
+// for (let i of movies) {
+//    let result = i;
+//     console.log(result);
+// }
 //STEP 7
-
+// let movies = [];
+// movies[0] = "Resident Evil";
+// movies[1] = "Ali";
+// movies[2] = "Sister Act";
+// movies[3] = "Rocky";
+// movies[4] = "DC Cab";
+// movies[5] = "Problem Child";
+// movies[6] = "Friday";
+// for (let i of movies.sort()) {
+//    let result = i;
+//     console.log(result);
+// }
 //STEP 8
 
 //STEP 9
