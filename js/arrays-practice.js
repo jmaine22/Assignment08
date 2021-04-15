@@ -92,7 +92,9 @@ leastFavMovies[0] = "Jack and Jill";
 leastFavMovies[1] = "The Adventures of Pluto Nash";
 leastFavMovies[2] = "Showtime";
 const movies = fmovies.concat(leastFavMovies);
-for (let i in movies.sort()) {
+movies.sort();
+movies.reverse();
+for (let i in movies) {
    let result = "Movies I like: " + '\n' + '\n' + fmovies[i] + '\n' + "Movies I regret watching: " + '\n' + '\n' + leastFavMovies[i];
     console.log(result);
 }
