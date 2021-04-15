@@ -2,7 +2,13 @@
 let favMovies = ['Love Jones', 'Love & Basketball', 'The Matrix', 'Ready Player One', 'A Low Down Dirty Shame'];
 console.log(favMovies[1]);
 //STEP 2
-let movies = []
+let movies = new Array(5);
+movies[0] = favMovies[0];
+movies[1] = favMovies[1];
+movies[2] = favMovies[2];
+movies[3] = favMovies[3];
+movies[4] = favMovies[4];
+console.log(movies);
 //STEP 3
 
 //STEP 4
