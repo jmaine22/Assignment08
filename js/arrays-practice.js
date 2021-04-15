@@ -62,24 +62,40 @@ console.log(favMovies[1]);
 //     console.log(result);
 // }
 //STEP 8
-let movies = [];
+// let movies = [];
+// let leastFavMovies = []
+// movies[0] = "Resident Evil";
+// movies[1] = "Ali";
+// movies[2] = "Sister Act";
+// movies[3] = "Rocky";
+// movies[4] = "DC Cab";
+// movies[5] = "Problem Child";
+// movies[6] = "Friday";
+// leastFavMovies[0] = "Jack and Jill";
+// leastFavMovies[1] = "The Adventures of Pluto Nash";
+// leastFavMovies[2] = "Showtime";
+// for (let i in movies && leastFavMovies) {
+//    let result = "Movies I like: " + '\n' + '\n' + movies[i] + '\n' + "Movies I regret watching: " + '\n' + '\n' + leastFavMovies[i];
+//     console.log(result);
+// }
+//STEP 9
+let fmovies = [];
 let leastFavMovies = []
-movies[0] = "Resident Evil";
-movies[1] = "Ali";
-movies[2] = "Sister Act";
-movies[3] = "Rocky";
-movies[4] = "DC Cab";
-movies[5] = "Problem Child";
-movies[6] = "Friday";
+fmovies[0] = "Resident Evil";
+fmovies[1] = "Ali";
+fmovies[2] = "Sister Act";
+fmovies[3] = "Rocky";
+fmovies[4] = "DC Cab";
+fmovies[5] = "Problem Child";
+fmovies[6] = "Friday";
 leastFavMovies[0] = "Jack and Jill";
 leastFavMovies[1] = "The Adventures of Pluto Nash";
 leastFavMovies[2] = "Showtime";
-for (let i in movies && leastFavMovies) {
-   let result = "Movies I like: " + '\n' + '\n' + movies[i] + '\n' + "Movies I regret watching: " + '\n' + '\n' + leastFavMovies[i];
+const movies = fmovies.concat(leastFavMovies);
+for (let i in movies.sort()) {
+   let result = "Movies I like: " + '\n' + '\n' + fmovies[i] + '\n' + "Movies I regret watching: " + '\n' + '\n' + leastFavMovies[i];
     console.log(result);
 }
-//STEP 9
-
 //STEP 10
 
 //STEP 11
